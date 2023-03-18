@@ -6,7 +6,7 @@ import akka.stream.scaladsl.Source
 
 import scala.concurrent.{ExecutionContextExecutor, Future}
 
-object Playground1 extends App {
+object Playground1a extends App {
 
   implicit val system: ActorSystem = ActorSystem("QuickStart")
   implicit val ec: ExecutionContextExecutor = system.dispatcher
